@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch ./src/index.ts",
     "generate": "prisma generate",
-    "build": "node ./build.js",
+    "build": "prisma generate && tsc && node ./build.js",
     "start": "node ./dist/index.js"
   },
   "dependencies": {
