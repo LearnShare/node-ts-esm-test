@@ -1,0 +1,21 @@
+{
+  "name": "node-ts-esm-test",
+  "version": "0.0.1",
+  "description": "just for test",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts",
+    "build": "node ./build.js",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "esbuild": "^0.25.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
