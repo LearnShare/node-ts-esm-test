@@ -1,2 +1,6 @@
 node_modules/
 dist/
+client/
+
+# 注意，通常需要将 .env 文件添加到 .gitignore 中，以避免将敏感信息上传到版本控制系统
+# .env

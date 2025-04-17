@@ -8,7 +8,7 @@ const {
 } = require('./package.json');
 
 build({
-  entryPoints: ['./src/index.js'],
+  entryPoints: ['./src/index.ts'],
   bundle: true,
   platform: 'node',
   outfile: './dist/index.js',
